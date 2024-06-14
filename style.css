@@ -342,7 +342,7 @@ section::-webkit-scrollbar-thumb {
 /* Contact */
 
 #contactContainer {
-  margin-bottom: 20vh;
+  margin-bottom: 50px;
 }
 
 #contactContainerOne {
@@ -671,6 +671,6 @@ li {
   }
 
   #contactContainerTwo {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 }

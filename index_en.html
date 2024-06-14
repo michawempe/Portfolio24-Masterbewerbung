@@ -20,26 +20,29 @@
       <a href="#homeContainer">Home</a>
       <a href="#projectsContainer">Projects</a>
       <a href="#aboutContainerCenter">About</a>
-      <a href="#contactContainer">Contact</a>
-      <a onclick="changeLanguage('index_', 'de')" id="languageButton">de</a>
+      <a onclick="changeLanguage('index_', 'en')" id="languageButton">en</a>
     </div>
 
     <div id="homeContainer" class="container">
-      <h1 id="homeHeadline">Hello, I'm a communication designer from Mainz.</h1>
+      <h1 id="homeHeadline">Hello, I am a communication designer from Mainz.</h1>
       <p id="homeTextOne" class="shortText">
-        I have an eye for innovative solutions and appealing designs. So far, I have focused on digital projects, but I also have a lot of experience in branding and corporate design.
+        I have an eye for innovative solutions and appealing designs. So far, I have focused on digital projects, but I also have extensive experience in branding and corporate design.
       </p>
-      <p id="homeTextTwo" class="shortText">Looking for a job</p>
+      <p id="homeTextTwo" class="shortText">Application for the Master’s Program</p>
     </div>
 
     <div id="projectsContainer" class="container">
       <div id="thumbnailImage">
         <img class="thumbImage" src="images/AAAREA_2.jpg" />
-        <img class="thumbImage" src="images/ViSyn_1.jpg" />
         <img class="thumbImage" src="images/matrix42_Image1.jpg" />
+        <img class="thumbImage" src="images/ViSyn_1.jpg" />
+        <img class="thumbImage" src="images/gentlePain_2.jpg" />
         <img class="thumbImage" src="images/ConCon_5.jpg" />
-        <img class="thumbImage" src="images/Kuscheljunkie_1.jpg" />
-        <img class="thumbImage" src="images/MischMit_1.jpg" />
+        <img class="thumbImage" src="images/Eco_Guardians_2.jpg" />
+        <img class="thumbImage" src="images/volume2img_Vorschau.jpg" />
+        <img class="thumbImage" src="images/Catan_1.jpg" />
+        <img class="thumbImage" src="images/Kuscheljunkie_Vorschau.jpg" />
+        <img class="thumbImage" src="images/generativesSelbstportraet_2.png" />
       </div>
 
       <div id="projectBoxContainer">
@@ -48,6 +51,14 @@
           <div class="projectKeywords">
             <a>Animation</a>
             <a>Installation</a>
+          </div>
+        </div>
+
+        <div class="projectBox" id="dww">
+          <h1>Digital Workspace World</h1>
+          <div class="projectKeywords">
+            <a>3D</a>
+            <a>Keyvisual</a>
           </div>
         </div>
 
@@ -60,11 +71,11 @@
           </div>
         </div>
 
-        <div class="projectBox" id="dww">
-          <h1>Digital Workspace World</h1>
+        <div class="projectBox" id="gentlePain">
+          <h1>Gentle Pain</h1>
           <div class="projectKeywords">
+            <a>Editorial</a>
             <a>3D</a>
-            <a>Keyvisual</a>
           </div>
         </div>
 
@@ -77,22 +88,48 @@
           </div>
         </div>
 
-        <div class="projectBox" id="hunde">
-          <h1>Dog rescue Campaign</h1>
+        <div class="projectBox" id="ecoGuardians">
+          <h1>EcoGuardians</h1>
           <div class="projectKeywords">
-            <a>3D</a>
-            <a>Campaign</a>
-            <a>Poster</a>
+            <a>AI</a>
+            <a>Game Design</a>
           </div>
         </div>
 
-        <div class="projectBox" id="mischMit">
-          <h1>Misch Mit! Campaign</h1>
+        <div class="projectBox" id="volume2img">
+          <h1>Architecture volume2img</h1>
           <div class="projectKeywords">
-            <a>Corporate Design</a>
-            <a>Beer Coaster</a>
+            <a>AI</a>
+            <a>UX Design</a>
           </div>
         </div>
+
+        <div class="projectBox" id="siedlerVonCatan">
+          <h1>Settlers of Catan</h1>
+          <div class="projectKeywords">
+            <a>Game Design</a>
+            <a>KI</a>
+          </div>
+        </div>
+
+        <div class="projectBox" id="hunde">
+          <h1>Dog Rescue Campaig</h1>
+          <div class="projectKeywords">
+            <a>3D</a>
+            <a>Kampagne</a>
+            <a>Plakate</a>
+          </div>
+        </div>
+
+        <div class="projectBox" id="generativesSelbstportraet">
+          <h1>Generative Self-Portrait</h1>
+          <div class="projectKeywords">
+            <a>Free Project</a>
+            <a>Generative</a>
+          </div>
+        </div>
+
+
       </div>
     </div>
 
@@ -108,6 +145,14 @@
           <img class="projectImage" src="images/AAAREA_3.jpg" />
         </section>
 
+        <section class="projectTextBox closed" class="dwwSection">
+          <img class="projectImage" src="images/matrix42_Image1.jpg" />
+          <img class="projectImage" src="images/matrix42_Image2.jpg" />
+          <img class="projectImage" src="images/matrix42_Image3.jpg" />
+          <img class="projectImage" src="images/matrix42_Image4.jpg" />
+          <img class="projectImage" src="images/matrix42_Image5.jpg" />
+        </section>
+
         <section class="projectTextBox closed" class="viSynSection">
           <img class="projectImage" src="images/ViSyn_1.jpg" />
           <img class="projectImage" src="images/ViSyn_2.jpg" />
@@ -118,12 +163,16 @@
           <img class="projectImage" src="images/ViSyn_5.jpg" />
         </section>
 
-        <section class="projectTextBox closed" class="dwwSection">
-          <img class="projectImage" src="images/matrix42_Image1.jpg" />
-          <img class="projectImage" src="images/matrix42_Image2.jpg" />
-          <img class="projectImage" src="images/matrix42_Image3.jpg" />
-          <img class="projectImage" src="images/matrix42_Image4.jpg" />
-          <img class="projectImage" src="images/matrix42_Image5.jpg" />
+        <section class="projectTextBox closed" class="gentlePainSection">
+          <video class="projectImage" muted autoplay loop>
+            <source src="images/gentlePain_1.mp4" type="video/mp4" />
+          </video>
+          <img class="projectImage" src="images/gentlePain_2.jpg" />
+          <img class="projectImage" src="images/gentlePain_3.jpg" />
+          <img class="projectImage" src="images/gentlePain_4.jpg" />
+          <img class="projectImage" src="images/gentlePain_5.jpg" />
+          <img class="projectImage" src="images/gentlePain_6.jpg" />
+          <img class="projectImage" src="images/gentlePain_7.jpg" />
         </section>
 
         <section class="projectTextBox closed" class="conConSection">
@@ -147,19 +196,61 @@
           </video>
         </section>
 
-        <section class="projectTextBox closed" class="hundeSection">
-          <img class="projectImage" src="images/Kuscheljunkie_1.jpg" />
-          <img class="projectImage" src="images/Kuscheljunkie_2.jpg" />
-          <img class="projectImage" src="images/Kuscheljunkie_3.jpg" />
+        <section class="projectTextBox closed" class="ecoGuardiansSection">
+          <video class="projectImage" muted autoplay loop>
+            <source src="images/Eco_Guardians_1.mp4" type="video/mp4" />
+          </video>
+          <img class="projectImage" src="images/Eco_Guardians_2.jpg" />
+          <img class="projectImage" src="images/Eco_Guardians_3.jpg" />
+          <img class="projectImage" src="images/Eco_Guardians_4.jpg" />
+          <img class="projectImage" src="images/Eco_Guardians_5.jpg" />
         </section>
 
-        <section class="projectTextBox closed" class="mischMitSection">
-          <img class="projectImage" src="images/MischMit_1.jpg" />
-          <img class="projectImage" src="images/MischMit_2.jpg" />
-          <img class="projectImage" src="images/MischMit_3.jpg" />
-          <img class="projectImage" src="images/MischMit_4.jpg" />
+        <section class="projectTextBox closed" class="volume2imgSection">
+          <img class="projectImage" src="images/volume2img_1.png" />
+          <video class="projectImage" muted autoplay loop>
+            <source src="images/volume2img_2.mp4" type="video/mp4" />
+          </video>
+          <video class="projectImage" muted autoplay loop>
+            <source src="images/volume2img_3.mp4" type="video/mp4" />
+          </video>
+          <video class="projectImage" muted autoplay loop>
+            <source src="images/volume2img_4.mp4" type="video/mp4" />
+          </video>
         </section>
-      </div>
+
+        <section class="projectTextBox closed" class="siedlerVonCatanSection">
+          <img class="projectImage" src="images/Catan_1.jpg" />
+          <img class="projectImage" src="images/Catan_2.jpg" />
+          <img class="projectImage" src="images/Catan_3.jpg" />
+          <img class="projectImage" src="images/Catan_4.jpg" />
+          <img class="projectImage" src="images/Catan_5.jpg" />
+          <img class="projectImage" src="images/Catan_6.jpg" />
+          <img class="projectImage" src="images/Catan_7.jpg" />
+        </section>
+
+      <section class="projectTextBox closed" class="hundeSection">
+        <img class="projectImage" src="images/Kuscheljunkie_1.jpg" />
+        <img class="projectImage" src="images/Kuscheljunkie_2.jpg" />
+        <img class="projectImage" src="images/Kuscheljunkie_3.jpg" />
+      </section>
+
+      <section class="projectTextBox closed" class="generativesSelbstportraetSection">
+        <video class="projectImage" muted autoplay loop>
+          <source src="images/generativesSelbstportraet_1.mp4" type="video/mp4" />
+        </video>
+        <img class="projectImage" src="images/generativesSelbstportraet_2.png" />
+        <img class="projectImage" src="images/generativesSelbstportraet_3.png" />
+        <img class="projectImage" src="images/generativesSelbstportraet_4.png" />
+        <img class="projectImage" src="images/generativesSelbstportraet_5.png" />
+        <img class="projectImage" src="images/generativesSelbstportraet_6.png" />
+        <img class="projectImage" src="images/generativesSelbstportraet_7.png" />
+        <img class="projectImage" src="images/generativesSelbstportraet_8.png" />
+        <img class="projectImage" src="images/generativesSelbstportraet_9.png" />
+      </section>
+
+
+    </div>
 
       <div id="projectPopUpRight">
         <section class="projectTextBox closed" class="aaareaSection">
@@ -171,38 +262,19 @@
           </div>
 
           <p class="projectText">
-            I had the opportunity to create a large red carpet installation in front of the Alte Oper in Frankfurt for AAAREA. The project was created while working at Nordisk Büro and aimed to
-            promote the new event platform AAAREA. AAAREA ran during Fashion Week in Frankfurt and presented many interdisciplinary and collaborative formats to showcase the latest trends in fashion.
-            <br />
-
-            The installation was placed on the red carpet of the brand gala and caught the attention of the guests. With an impressive design and eye-catching details, the installation became a focal
-            point. <br />
-
-            This project allowed me to deepen my skills in event design and brand marketing.
+            I was asked to create a large red carpet installation for AAAREA in front of the Alte Oper 
+            in Frankfurt am Main. The project was created while working at the Nordisk office and aimed 
+            to promote the new event platform AAAREA. It ran during Fashion Week in Frankfurt, presenting 
+            many interdisciplinary and collaborative formats to showcase the latest trends in fashion. <br />
+            
+            The installation was placed on the red carpet of the "Markengala" and attracted the attention of 
+            the guests. With an impressive design, the installation became an eye-catcher.
           </p>
           <div class="awards">
             <img src="images/ADC_Logo.svg" />
             <img src="images/ADC_Logo.svg" />
             <img src="images/red_dot_winner.png" />
           </div>
-        </section>
-
-        <section class="projectTextBox closed" class="viSynSection">
-          <h1 class="projectHeadline">ViSyn – Design Prozess</h1>
-
-          <div class="projectKeywords projectKeywordsText">
-            <a>Corporate Design</a>
-            <a>Research</a>
-            <a>AI</a>
-          </div>
-
-          <p class="projectText">
-            There are many programs that want to simplify the design of various media for people who are not familiar with the subject. In most cases, however, the users still have to make many
-            important important design decisions. I want to change that with this project. It deals with translating the conventional design process into a digital process. It a digital tool has been
-            created for designing advertising media. Central to the program is "ViSyn", a gender-neutral agent that guides users through the digital design process. design process. During
-            implementation, the use of AI models is inevitable, because new AI models are regularly created that make it even easier to design with an AI. The debate about what impact AI has and will
-            have on design is becoming more intense. In line with this, I have elaborated on the advantages that such AI models can have vs. human-to-human interaction.
-          </p>
         </section>
 
         <section class="projectTextBox closed" class="dwwSection">
@@ -214,11 +286,41 @@
           </div>
 
           <p class="projectText">
-            I had the pleasure to work with Nordisk office on the design for Matrix42's "Digital Workspace World 2022" conference. Here, my focus was on creating the key visuals that would visualize
-            the message of the conference. The conference offers attendees a platform for exchange with experts and provides answers and strategies to the most important questions of the digital
-            future of work. <br />
-            For the implementation of the visual, the given shape was translated into a three-dimensional representation, which was brought into different formats. A visual concept was developed that
-            gets to the heart of the conference's message. The key visual is a central component of the marketing campaign and is used in various digital and printed formats.
+            I had the pleasure of working with Nordisk Büro on the design for Matrix42's "Digital Workspace World 2022" conference. My focus was on creating the key visuals to illustrate the 
+            conference's message. The conference provides participants with a platform to engage with experts and delivers answers and strategies for the key questions regarding the digital 
+            future of work. For the implementation of the visual, the specified form was translated into a three-dimensional representation.
+          </p>
+        </section>
+
+        <section class="projectTextBox closed" class="viSynSection">
+          <h1 class="projectHeadline">ViSyn – Design Process</h1>
+
+          <div class="projectKeywords projectKeywordsText">
+            <a>Corporate Design</a>
+            <a>Research</a>
+            <a>AI</a>
+          </div>
+
+          <p class="projectText">
+            There are many programs designed to simplify designing for people without a design background. However, users often still need to make many important design decisions. I aim to 
+            change that with this project. It focuses on translating the conventional design process into a digital one. The result is a digital tool for designing advertising media. Central to the 
+            program is "ViSyn" a gender-neutral agent that guides users through the digital design process. The use of AI models is essential for this implementation, as new AI models are constantly 
+            emerging, making it even easier to create with AI. The debate on the impact AI has and will have on design is becoming increasingly intense. In line with this, I have highlighted the 
+            advantages that such AI models can have over human-to-human interaction.
+          </p>
+        </section>
+
+        <section class="projectTextBox closed" class="gentlePainSection">
+          <h1 class="projectHeadline">Gentle Pain</h1>
+
+          <div class="projectKeywords projectKeywordsText">
+            <a>Editorial</a>
+            <a>3D</a>
+          </div>
+
+          <p class="projectText">
+            The magazine documents the work done in a typography course. Created in collaboration with Nils Trenner, the magazine aims to humorously capture the often stressful semester. Additionally, 
+            we wrote two articles for the magazine. The topics are the history of chrome in design and the development of the retro design trend that was just beginning in 2020.
           </p>
         </section>
 
@@ -232,18 +334,60 @@
           </div>
 
           <p class="projectText">
-            As part of a course, I developed the "Think inside the new Box" concept for ConCon. As a technology-oriented event, ConCon always wants to keep pace with new developments. In my project, I
-            focused on the changes that can result from the use of Artificial Intelligence (AI). My idea was to visualize an AI Box that houses different AI visuals. The animation of the elements
-            symbolizes the transition from a graphic space to a space with AI elements. In the AI Booth, visitors can experience this for themselves by giving various instructions, such as a
-            naturalistic representation of technology, causing the space to change accordingly. Several projections are installed on the stage, and their appearance gradually changes as the elements
-            become more and more abstracted. The design of the stage can be customized by each speaker. <br />
-            Together with Paul Eßer and Prof. Florian Jenett, I presented the concepts in a Booth at ConCon 2022. The booth we planned and designed showed how AI can change the appearance of ConCon in
-            the future.
+            As part of a course, I developed the concept "Think inside the new Box" for ConCon. My project focused on the changes that can result from the use of artificial intelligence. My idea was to 
+            visualize an AI box that houses various AI visuals. The animation of the elements symbolizes the transition from a graphic space to a space with AI elements. In the AI booth, visitors can 
+            experience this for themselves by giving different instructions, like a naturalistic representation of technology, causing the space to change accordingly. Several projections are installed on the stage, 
+            with images gradually changing as the elements become more abstract. Each speaker can customize the stage design individually. <br />
+            
+            Together with Paul Eßer and Prof. Florian Jenett, I presented the concepts at ConCon 2022 in a booth. The booth we planned and designed showed how AI could change the appearance of ConCon in the future.
+          </p>
+        </section>
+
+        <section class="projectTextBox closed" class="ecoGuardiansSection">
+          <h1 class="projectHeadline">EcoGuardians</h1>
+
+          <div class="projectKeywords projectKeywordsText">
+            <a>AI</a>
+            <a>Game Design</a>
+          </div>
+
+          <p class="projectText">
+            Using AI, I created a card game called Eco Guardians. It's a strategic card game where players take on the roles of conservationists and face the challenge of preserving and protecting various ecosystems. 
+            The goal is to save valuable animal species and combat human threats by utilizing landscapes, settling animals, and warding off natural disasters. The illustrations are AI-generated. I designed the concept 
+            myself, but solved logical issues with an AI language model.
+          </p>
+        </section>
+
+        <section class="projectTextBox closed" class="volume2imgSection">
+          <h1 class="projectHeadline">Architecture volume2img</h1>
+
+          <div class="projectKeywords projectKeywordsText">
+            <a>AI</a>
+            <a>UX Design</a>
+          </div>
+
+          <p class="projectText">
+            The project Architecture volume2img is a website where users can create a rough volume model of a building in a simple 3D editor. In the next step, a prompt consisting of words related to style, material, and 
+            environment is put together. Then, an AI generates an image based on these inputs. Alternatively, a photo of an already built model can be used as input.
+          </p>
+        </section>
+
+        <section class="projectTextBox closed" class="siedlerVonCatanSection">
+          <h1 class="projectHeadline">Settlers of Catan</h1>
+
+          <div class="projectKeywords projectKeywordsText">
+            <a>Game Design</a>
+            <a>AI</a>
+          </div>
+
+          <p class="projectText">
+            In this project, I redesigned the game materials of the board game Settlers of Catan using AI. By carefully crafting the prompts, I achieved a consistent style in the image generation of different landscapes, for 
+            example. The figures are 3D-printed from self-created or modified 3D models.
           </p>
         </section>
 
         <section class="projectTextBox closed" class="hundeSection">
-          <h1 class="projectHeadline">Dog rescue Campaign</h1>
+          <h1 class="projectHeadline">Dog Rescue Campaign</h1>
 
           <div class="projectKeywords projectKeywordsText">
             <a>3D</a>
@@ -252,30 +396,27 @@
           </div>
 
           <p class="projectText">
-            The posters were created in a course in which a campaign was to be created on a topic close to my heart. My focus here was on the image change of adopting street dogs. <br />
-            When designing the posters, I was inspired by the texts of advertising posters of various dating agencies, since the dogs are also about dating. My goal was to make the message appealing
-            to motivate further information gathering. <br />
-            To create the posters, 3D scanned porcelain dogs were used as models. Hair was added to these in 3D software. The clear design is intended to take the pure emotionality out of the topic
-            and thus convey a more positive image.
+            The posters were created in a course where we were to develop a campaign on a topic close to our hearts. My focus was on changing the image of adopting stray dogs. I was inspired by the texts of various dating service 
+            advertisements in designing the posters. My goal was to make the message appealing to motivate further information gathering. <br />
+            
+            To create the posters, I used 3D-scanned porcelain dogs as models. These were given hair in a 3D software. The clear design aims to remove the pure emotionality from the topic and thus convey a more positive image.
           </p>
         </section>
 
-        <section class="projectTextBox closed" class="mischMitSection">
-          <h1 class="projectHeadline">Misch Mit! Campaign</h1>
+        <section class="projectTextBox closed" class="generativesSelbstportraetSection">
+          <h1 class="projectHeadline">Generative Self-Portrait</h1>
 
           <div class="projectKeywords projectKeywordsText">
-            <a>Corporate Design</a>
-            <a>Beer Coaster</a>
+            <a>Free Project</a>
+            <a>Generative</a>
           </div>
 
           <p class="projectText">
-            On behalf of the organization "misch mit!" I was allowed to design a project that advocates for people with refugee experience. The idea behind the project was to address and correct
-            prejudices against these people. <br />
-            I designed coasters on which prejudices are depicted and set right in a clear, direct statement. The goal was to juxtapose the two parties, the people with many and few prejudices against
-            people with refugee experience, and to stimulate a discussion. <br />
-            Through clear, direct language and eye-catching design, the coasters are intended to help promote understanding of people with refugee experience.
+            In a course on "Generative Design" I wrote a program that allows painting with one's body. The only requirement is a dark background and a computer camera. The program is designed to ensure interactive, beginner-friendly 
+            painting with easy operation that encourages experimentation.
           </p>
         </section>
+
       </div>
     </div>
 
@@ -288,47 +429,26 @@
       <div id="aboutContainer" class="container">
         <img src="images/Portolio_Portrait.jpg" id="aboutPicture" />
 
-        <h1 id="aboutHeadline">Hello, I am a communication designer from Mainz.</h1>
+        <h1 id="aboutHeadline">Hi, I'm a Communication Designer from Mainz.</h1>
         <p id="aboutText" class="aboutTextWide">
-          I graduated from Mainz University of Applied Sciences with a degree in Communication Design and gained experience in branding, editorial design and digital products. <br />
-          I have been working creatively for six years and during this time I have gained experience in my school education as well as in my internships and freelance work. <br />
-          I am seeking a position as a communication designer that will allow me to collaborate with clients and colleagues to create innovative products.
+            I completed my Bachelor's degree in Communication Design at Hochschule Mainz, gaining experience in branding, editorial design, and digital products. <br />
+            I have been working creatively for six years, during which I have accumulated experience through my academic education as well as in professional and freelance roles.
         </p>
 
         <p id="aboutText" class="aboutTextNarrow">
-          Hello, I am a communication designer from Mainz.<br />
-          I graduated from Mainz University of Applied Sciences with a degree in Communication Design and gained experience in branding, editorial design and digital products. <br />
-          I have been working creatively for six years and during this time I have gained experience in my school education as well as in my internships and freelance work. <br />
-          I am seeking a position as a communication designer that will allow me to collaborate with clients and colleagues to create innovative products.
+            Hi, I'm a Communication Designer from Mainz. <br />
+            I completed my Bachelor's degree in Communication Design at Hochschule Mainz, gaining experience in branding, editorial design, and digital products. <br />
+            I have been working creatively for six years, during which I have accumulated experience through my academic education as well as in professional and freelance roles.
         </p>
       </div>
     </div>
 
     <div id="contactContainer" class="container">
       <div id="contactContainerOne">
-        <h1 id="contactHeadline">I look forward to connecting with you soon!</h1>
-
-        <div>
-          <h3 class="contactDiscription">E-Mail</h3>
-          <p>hello@michawempe.de</p>
-
-          <h3 class="contactDiscription">Standort</h3>
-          <p>Mainz - Germany</p>
-        </div>
       </div>
 
       <div id="contactContainerTwo">
-        <form action="https://formsubmit.co/wempemicha3@gmail.com" method="POST">
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value="https://michawempe.github.io/Portfolio_2023/thankyou_en.html" />
-          <h3 class="contactDiscription">Your Name</h3>
-          <input type="text" name="name" placeholder="Name" required />
-          <h3 class="contactDiscription">Your E-Mail</h3>
-          <input type="email" name="email" placeholder="E-Mail" required />
-          <h3 class="contactDiscription">Your Nachricht</h3>
-          <textarea placeholder="Nachricht" rows="6" class="form-control" name="message" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
+       
       </div>
     </div>
 
